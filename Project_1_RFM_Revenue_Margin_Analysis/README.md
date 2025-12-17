@@ -8,8 +8,8 @@ The goal is to better understand customer behavior, product demand, and profitab
 
 ## Business Questions
 This project focuses on understanding customer value and product performance using RFM segmentation. The analysis is guided by the following business questions: 
-Q1. How are customers spread across different RFM segments, and which segments generate the most revenue relative to their size? 
-Q2. How are recency, frequency, and monetary value distributed across customers? 
-Q3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers? 
-Q4. How does revenue break down by category and subcategory for high-value customer segments? 
-Q5. Which categories drive revenue, and which ones are actually more profitable? 
+1. How are customers spread across different RFM segments, and which segments generate the most revenue relative to their size? 
+2. How are recency, frequency, and monetary value distributed across customers?
+3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers?
+4. How does revenue break down by category and subcategory for high-value customer segments?
+5. Which categories drive revenue, and which ones are actually more profitable? 
