@@ -38,7 +38,10 @@ SQL was used as the primary layer for customer-level modeling and metric prepara
 - Focused analysis on high-value segments (Champions and Loyal)
 - Aggregated total units, total revenue, average revenue per customer, and revenue share by product category and subcategory
 
-
-
-
-
+#### Python: Analysis & Visualization
+Python was used for exploratory analysis and visualization based on the aggregated SQL outputs:
+- Distribution analysis of recency, frequency, and monetary metrics
+- Segment-level comparisons using treemaps and histograms
+- Revenue mix analysis by category and subcategory
+- Comparative analysis of revenue contribution and derived profit margin across segments
+Visualizations were designed to highlight differences in customer behavior, revenue concentration, and trade-offs between revenue and profitability.
