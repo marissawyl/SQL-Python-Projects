@@ -16,4 +16,32 @@ This project focuses on understanding customer value and product performance usi
 
 ## Data & Methodology
 ### Data Source
-The analysis uses the Microsoft Contoso sample dataset (~100,000 rows), obtained from Luke Barousse’s data analytics resources. The dataset simulates transactional retail data, including sales, customer, product, and store information.
+The analysis uses the Microsoft Contoso sample dataset (~199,000 rows), obtained from Luke Barousse’s data analytics resources. The dataset contains transactional sales data along with customer and product attributes. The dataset is relatively clean and structured, so no extensive data cleaning was required.
+
+### Methodology
+#### SQL: Customer Modeling & Aggregation
+SQL was used as the primary layer for customer-level modeling and metric preparation. The main steps include:
+1. Customer-level aggregation
+   • Combined customer name fields
+   • Identified last purchase date per customer
+   • Calculated purchase frequency and total monetary value
+   • Normalized revenue using exchange rates
+2. RFM feature engineering
+   a. Recency calculated as days since last transaction
+   b. Frequency defined as number of unique orders
+   c. Monetary defined as total customer spending
+   d. Percentile-based cutoffs (20%, 40%, 60%, 80%) used to assign R, F, and M scores
+3. Customer segmentation
+   a. Customers were classified into standard RFM segments (e.g. Champions, Loyal, At Risk) based on score combinations
+   b. Results were materialized as a reusable SQL view
+
+Category-level aggregation
+
+Focused analysis on high-value segments (Champions and Loyal)
+
+Aggregated total units, total revenue, average revenue per customer, and revenue share by product category and subcategory
+
+
+
+
+
