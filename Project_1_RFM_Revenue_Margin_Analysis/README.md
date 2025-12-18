@@ -62,3 +62,31 @@ Focus on upsell and engagement strategies to move these customers into higher-va
 - Low-Value / At-Risk Segments:  
 Use targeted re-engagement or cost-efficient promotions to improve activity, while carefully managing marketing spend due to lower revenue return.
 - Overall, shifting customers up the RFM ladder is likely to be more impactful than acquiring new low-value customers.
+
+### Q2. How are recency, frequency, and monetary value distributed across customers?
+#### **Approach**
+- Converted recency from days to months for easier interpretation
+- Analyzed the distribution of recency, frequency, and monetary value at the customer level
+- Compared mean and median values to understand skewness in customer behavior
+
+#### **SQL**
+- Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)  
+This query creates a reusable RFM segmentation view using percentile-based scoring.
+
+#### **Visualization**
+- Distribution of recency, frequency, and monetary value across customers (histograms)
+- Built using Python (Pandas, Matplotlib, Seaborn). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
+
+![RFM Distribution](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/rfm_distribution.png)
+
+#### **Key Findings**
+- Recency shows a wide spread, with many customers purchasing recently, but a long tail of inactive customers.
+- Frequency is heavily right-skewed, with most customers making only one or two purchases.
+- Monetary value is also highly skewed, where a small group of customers accounts for very high spending.
+- For all three metrics, the mean is higher than the median, indicating the presence of high-value outliers.
+
+#### **Business Insights**
+- Most customers purchase infrequently, suggesting opportunities to increase repeat purchases through reminders, bundles, or incentives.
+- A small group of customers drives a disproportionate share of total spending and should be carefully retained.
+- Median values better represent the “typical” customer than averages, which are influenced by a few extreme cases.
+- Growth efforts should balance activating the large low-engagement base while protecting high-spending customers who skew overall performance.
