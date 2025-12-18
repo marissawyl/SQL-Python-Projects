@@ -45,3 +45,4 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 **Visualization**
 - RFM segment distribution and revenue contribution (treemap)
 - Built using Python (Pandas, Matplotlib)
+![RFM Segment Treemap](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/RFM_segment_treemap.png)
