@@ -55,10 +55,10 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 - Revenue contribution is highly concentrated among a few customer segments rather than evenly distributed.
 
 ## Business Insights
-- High-Value Segments (Champions & Loyal):
+- High-Value Segments (Champions & Loyal):  
 Prioritize retention through loyalty programs, exclusive offers, or premium benefits, as losing even a small number of these customers would have a strong revenue impact.
-- Mid-Value Segments (Potential Loyalists & Need Attention):
+- Mid-Value Segments (Potential Loyalists & Need Attention):  
 Focus on upsell and engagement strategies to move these customers into higher-value segments, as they represent the biggest growth opportunity.
-- Low-Value / At-Risk Segments:
+- Low-Value / At-Risk Segments:  
 Use targeted re-engagement or cost-efficient promotions to improve activity, while carefully managing marketing spend due to lower revenue return.
 - Overall, shifting customers up the RFM ladder is likely to be more impactful than acquiring new low-value customers.
