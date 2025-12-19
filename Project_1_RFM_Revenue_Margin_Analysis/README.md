@@ -143,4 +143,6 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 - Although Loyal customers purchase higher volumes overall (as shown in Q3), both Champions and Loyal show similar subcategory preferences.
 
 #### **Business Insights**
-- 
+- Most revenue comes from a small number of core subcategories, such as laptops, desktops, and main phone products. Focusing pricing, inventory, and promotions on these subcategories will have a much bigger impact than spreading effort across many smaller products.
+- Some Home Appliances subcategories generate strong revenue despite lower sales volume. These products should be positioned as higher-value items, where margin and pricing matter more than pushing volume through discounts.
+- Subcategories with consistently low revenue and low sales volume should be treated as supporting or add-on products, while Champions and Loyal customers can be served with a similar product mix but different pricing or bundle strategies.
