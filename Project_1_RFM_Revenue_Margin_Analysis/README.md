@@ -33,10 +33,10 @@ This project combines SQL and Python to analyze customer behavior and product pe
 ## Analysis
 ### Q1. How are customers spread across different RFM segments, and which segments generate the most revenue relative to their size?
 #### **Approach**
-- Aggregated customer-level transaction data to calculate recency, frequency, and monetary value
-- Assigned RFM scores using percentile-based thresholds
-- Classified customers into standard RFM segments
-- Compared segment size and total revenue contribution
+- Aggregated customer-level transaction data to calculate recency, frequency, and monetary value.
+- Assigned RFM scores using percentile-based thresholds.
+- Classified customers into standard RFM segments.
+- Compared segment size and total revenue contribution.
 
 #### **SQL**
 - Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)  
@@ -65,9 +65,9 @@ Use targeted re-engagement or cost-efficient promotions to improve activity, whi
 
 ### Q2. How are recency, frequency, and monetary value distributed across customers?
 #### **Approach**
-- Converted recency from days to months for easier interpretation
-- Analyzed the distribution of recency, frequency, and monetary value at the customer level
-- Compared mean and median values to understand skewness in customer behavior
+- Converted recency from days to months for easier interpretation.
+- Analyzed the distribution of recency, frequency, and monetary value at the customer level.
+- Compared mean and median values to understand skewness in customer behavior.
 
 #### **SQL**
 - Query: [1_create_rfm_segmentation_view.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/1_create_rfm_segmentation_view.sql)  
@@ -93,9 +93,9 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 
 ### Q3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers?
 #### **Approach**
-- Focused on high-value RFM segments: Champions and Loyal customers
-- Aggregated total units sold by product category for each segment
-- Compared category-level purchase patterns between the two segments
+- Focused on high-value RFM segments: Champions and Loyal customers.
+- Aggregated total units sold by product category for each segment.
+- Compared category-level purchase patterns between the two segments.
 
 #### **SQL**
 - Query: [2_high_value_customer_category_analysis.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/2_high_value_customer_category_analysis.sql)  
@@ -121,7 +121,7 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 
 ### Q4. How does revenue break down by category and subcategory for high-value customer segments?
 #### **Approach**
-- Focused on high-value RFM segments: Champions and Loyal customers
+- Focused on high-value RFM segments: Champions and Loyal customers.
 - Aggregated total revenue at the product subcategory level and grouped it under each main product category.
 - Compared revenue patterns between Champions and Loyal customers to understand which categories and subcategories generate the most revenue.
 
@@ -146,3 +146,26 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 - Most revenue comes from a small number of core subcategories, such as laptops, desktops, and main phone products. Focusing pricing, inventory, and promotions on these subcategories will have a much bigger impact than spreading effort across many smaller products.
 - Some Home Appliances subcategories generate strong revenue despite lower sales volume. These products should be positioned as higher-value items, where margin and pricing matter more than pushing volume through discounts.
 - Subcategories with consistently low revenue and low sales volume should be treated as supporting or add-on products, while Champions and Loyal customers can be served with a similar product mix but different pricing or bundle strategies.
+
+### Q5. Which categories drive revenue, and which ones are actually more profitable?
+#### **Approach**
+- Aggregated total revenue by product category for high-value customer segments (Champions and Loyal).
+- Calculated category-level margin using a weighted average based on revenue contribution.
+- Compared revenue size and margin level side by side to identify trade-offs between volume and profitability.
+
+#### **SQL**
+- Query: [2_high_value_customer_category_analysis.sql](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/2_high_value_customer_category_analysis.sql)  
+This query aggregates category-level sales metrics for Champions and Loyal customers.
+
+#### **Visualization**
+- Revenue and margin comparison by product category for Champions and Loyal customers (bar + line chart).
+- Built using Python (Pandas, Matplotlib). Code: [3_visualization.ipynb](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/3_visualization.ipynb)  
+
+![Revenue Margin](https://github.com/marissawyl/SQL-Python-Projects/blob/main/Project_1_RFM_Revenue_Margin_Analysis/images/revenue_margin.png)
+
+#### **Key Findings**
+- Computers generate the highest revenue for both Champions and Loyal customers, with relatively strong margins.
+- Some mid-revenue categories, such as TV & Video and Music, Movies, and Audio Books, show better margin performance than their revenue size suggests.
+
+#### **Business Insights**
+- 
