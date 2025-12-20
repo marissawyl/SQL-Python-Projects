@@ -115,7 +115,7 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 #### **Business Insights**
 - Computers and Cell Phones are key volume drivers for high-value customers and should remain a priority for inventory and promotions.
 - Loyal customers contribute higher purchase volumes across most categories, making them good targets for cross-category campaigns, bundles, and repeat-purchase incentives.
-- Champions generate high value despite lower purchase volume, so focusing on premium offerings and exclusive benefits is more effective than pushing discounts to increase quantity.
+- Champions generate high value despite lower purchase volume, so focusing on premium offerings and exclusive benefits is likely more effective than pushing discounts to increase quantity.
 - Categories like Movies, Games, and Music are popular in both segments and can be used as complementary products to increase basket size.
 
 ### Q4. How does revenue break down by category and subcategory for high-value customer segments?
