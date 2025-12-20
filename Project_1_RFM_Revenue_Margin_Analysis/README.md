@@ -108,9 +108,9 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 
 #### **Key Findings**
 - Computers and Cell Phones are the top-selling categories for both Champions and Loyal customers.
-- Loyal customers purchase higher volumes overall compared to Champions across most categories.
 - Entertainment-related categories (Music, Movies, and Audio Books; Games and Toys) show strong demand from both segments.
 - Cameras and Audio show limited demand among high-value customers, suggesting a smaller market compared to core categories like Computers and Cell Phones.
+- Loyal customers purchase higher volumes overall compared to Champions across most categories.
 
 #### **Business Insights**
 - Computers and Cell Phones are key volume drivers for high-value customers and should remain a priority for inventory and promotions.
