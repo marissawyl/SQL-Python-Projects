@@ -59,8 +59,8 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 Prioritize retention through loyalty programs, exclusive offers, or premium benefits, as losing even a small number of these customers would have a strong revenue impact.
 - Mid-Value Segments (Potential Loyalists & Need Attention):  
 Focus on upsell and engagement strategies to move these customers into higher-value segments, as they represent the biggest growth opportunity.
-- Low-Value / At-Risk Segments:  
-Use targeted re-engagement or cost-efficient promotions to improve activity, while carefully managing marketing spend due to lower revenue return.
+- At-Risk Segments:  
+Use targeted re-engagement campaigns and personalized incentives to bring at-risk customers back, protecting revenue that could be lost if they churn.
 - Overall, shifting customers up the RFM ladder is likely to be more impactful than acquiring new low-value customers.
 
 ### Q2. How are recency, frequency, and monetary value distributed across customers?
@@ -171,3 +171,7 @@ This query aggregates category-level sales metrics for Champions and Loyal custo
 - Categories like Computers should remain a top priority because they combine high revenue with strong margins, giving the biggest impact on overall results.
 - Mid-revenue but higher-margin categories (such as TV & Video and Music, Movies, and Audio Books) can be used to improve profitability, especially when bundled with core products like Computers or Cell Phones rather than heavily discounted.
 - Champions and Loyal customers buy similar product categories, so category-level pricing and product decisions are likely more effective than segment-specific promotions.
+
+## Strategic Recommendations
+- Retain High-Value Customers: Focus on Champions & Loyal customers with loyalty programs, premium perks, and personalized offers to protect key revenue.
+- 
