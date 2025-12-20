@@ -86,10 +86,9 @@ This query creates a reusable RFM segmentation view using percentile-based scori
 - For all three metrics, the mean is higher than the median, indicating the presence of high-value outliers.
 
 #### **Business Insights**
-- Most customers purchase infrequently, suggesting opportunities to increase repeat purchases through reminders, bundles, or incentives.
-- A small group of customers drives a disproportionate share of total spending and should be carefully retained.
-- Median values better represent the “typical” customer than averages, which are influenced by a few extreme cases.
-- Growth efforts should balance activating the large low-engagement base while protecting high-spending customers who skew overall performance.
+- Recency: Prioritize targeted win-back campaigns (emails, offers, retargeting) for recently dormant customers to increase engagement.
+- Frequency: Encourage repeat purchases through loyalty programs, subscription models, or post-purchase engagement.
+- Monetary: Focus on high-value customer retention and upsell opportunities with VIP perks and personalized recommendations.
 
 ### Q3. Which product categories generate the highest sales volume among high-value customer segments, such as Champions and Loyal customers?
 #### **Approach**
